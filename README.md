@@ -183,23 +183,23 @@ The backend is located at `/Users/doquendob/Documents/million_backend/`
 4. **The frontend uses Jest + React Testing Library for component and API unit tests**.
 
 To run all tests:
-```
+
+```bash
 npm test
 # or
 yarn test
 # or
-pnpm test```
-
-
+pnpm test
+```
 
 To run tests in watch mode (recommended during development):
 
-```npm test -- --watch```
+npm test -- --watch
 
 
 To generate a coverage report:
 
-```npm test -- --coverage```
+npm test -- --coverage
 
 5. **Start the development server**
 

@@ -45,11 +45,11 @@ src/
 │   └── globals.css            # Global styles
 ├── components/
 |   └── __tests__/ 
-│         ├── PropertyCard.tsx       # Property display card
-│         ├── AddPropertyForm.tsx    # Form to add new properties
-│         ├── PropertyFilter.tsx     # Filter controls
-│         ├── LoadingSpinner.tsx     # Loading state component
-│         └── ErrorMessage.tsx       # Error display component
+│   ├── PropertyCard.tsx       # Property display card
+│   ├── AddPropertyForm.tsx    # Form to add new properties
+│   ├── PropertyFilter.tsx     # Filter controls
+│   ├── LoadingSpinner.tsx     # Loading state component
+│   └── ErrorMessage.tsx       # Error display component
 ├── lib/
 │   └── api/
 │       └── __tests__/

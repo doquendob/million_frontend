@@ -53,9 +53,9 @@ src/
 ├── lib/
 │   └── api/
 │       └── __tests__/
-│             ├── config.ts          # API configuration
-│             ├── types.ts           # API response types
-│             └── propertyService.ts # API service layer
+│       ├── config.ts          # API configuration
+│       ├── types.ts           # API response types
+│       └── propertyService.ts # API service layer
 |   └── utils/                       # utility functions for error handling
 ├── types/
 │   └── index.ts               # TypeScript interfaces

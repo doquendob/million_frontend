@@ -44,16 +44,19 @@ src/
 │   ├── layout.tsx             # Root layout
 │   └── globals.css            # Global styles
 ├── components/
-│   ├── PropertyCard.tsx       # Property display card
-│   ├── AddPropertyForm.tsx    # Form to add new properties
-│   ├── PropertyFilter.tsx     # Filter controls
-│   ├── LoadingSpinner.tsx     # Loading state component
-│   └── ErrorMessage.tsx       # Error display component
+|   └── __tests__/ 
+│         ├── PropertyCard.tsx       # Property display card
+│         ├── AddPropertyForm.tsx    # Form to add new properties
+│         ├── PropertyFilter.tsx     # Filter controls
+│         ├── LoadingSpinner.tsx     # Loading state component
+│         └── ErrorMessage.tsx       # Error display component
 ├── lib/
 │   └── api/
-│       ├── config.ts          # API configuration
-│       ├── types.ts           # API response types
-│       └── propertyService.ts # API service layer
+│       └── __tests__/
+│             ├── config.ts          # API configuration
+│             ├── types.ts           # API response types
+│             └── propertyService.ts # API service layer
+|   └── utils/                       # utility functions for error handling
 ├── types/
 │   └── index.ts               # TypeScript interfaces
 └── data/

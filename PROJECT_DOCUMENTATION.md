@@ -108,6 +108,7 @@
 
 - **NUnit 4.0.1** - Unit testing framework
 - **Moq 4.20.70** - Mocking library
+- **Jest 30.2.0** - Unit testing framework 
 
 ---
 

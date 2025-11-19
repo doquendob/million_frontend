@@ -189,8 +189,7 @@ To run all tests:
 yarn test
 # or
 pnpm test
-# or
-bun test```
+
 
 
 To run tests in watch mode (recommended during development):
@@ -204,7 +203,7 @@ To generate a coverage report:
 
 5. **Start the development server**
 
-   ```bash
+   bash
    npm run dev
    # or
    yarn dev
@@ -212,7 +211,6 @@ To generate a coverage report:
    pnpm dev
    # or
    bun dev
-   ```
 
 5. **Open your browser**
 

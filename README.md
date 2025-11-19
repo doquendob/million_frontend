@@ -178,7 +178,31 @@ The backend is located at `/Users/doquendob/Documents/million_backend/`
    NEXT_PUBLIC_API_URL=http://localhost:5000/api
    ```
 
-4. **Start the development server**
+   Run Frontend Tests (Jest)
+
+4. **The frontend uses Jest + React Testing Library for component and API unit tests**.
+
+To run all tests:
+
+```npm test
+# or
+yarn test
+# or
+pnpm test
+# or
+bun test```
+
+
+To run tests in watch mode (recommended during development):
+
+```npm test -- --watch```
+
+
+To generate a coverage report:
+
+```npm test -- --coverage```
+
+5. **Start the development server**
 
    ```bash
    npm run dev

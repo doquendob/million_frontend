@@ -1,0 +1,96 @@
+[{
+  "_id": "prop-001",
+  "name": "Modern Downtown Loft",
+  "description": "Stunning contemporary loft in the heart of downtown with floor-to-ceiling windows, exposed brick, and high ceilings. Walking distance to restaurants and entertainment.",
+  "addressProperty": "245 Market Street, San Francisco, CA 94102",
+  "type": "Apartment",
+  "priceProperty": {
+    "$numberDecimal": "1250000"
+  },
+  "imageUrl": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
+  "active": true,
+  "createdAt": {
+    "$date": "2025-11-15T10:30:00.000Z"
+  },
+  "idOwner": "owner-123"
+},
+{
+  "_id": "prop-002",
+  "name": "Spacious Family Home",
+  "description": "Beautiful 4-bedroom, 3-bathroom family home with large backyard, updated kitchen, and master suite. Perfect for growing families in excellent school district.",
+  "addressProperty": "1834 Elm Avenue, Austin, TX 78704",
+  "type": "House",
+  "priceProperty": {
+    "$numberDecimal": "875000"
+  },
+  "imageUrl": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800",
+  "active": true,
+  "createdAt": {
+    "$date": "2025-11-14T14:20:00.000Z"
+  },
+  "idOwner": "owner-456"
+},
+{
+  "_id": "prop-003",
+  "name": "Luxury Penthouse Suite",
+  "description": "Exclusive penthouse with panoramic city views, private elevator, rooftop terrace, and premium finishes throughout. Ultra-luxury living at its finest.",
+  "addressProperty": "88 Central Park West, New York, NY 10023",
+  "type": "Apartment",
+  "priceProperty": {
+    "$numberDecimal": "4500000"
+  },
+  "imageUrl": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800",
+  "active": true,
+  "createdAt": {
+    "$date": "2025-11-13T09:15:00.000Z"
+  },
+  "idOwner": "owner-789"
+},
+{
+  "_id": "prop-004",
+  "name": "Cozy Suburban Starter Home",
+  "description": "Charming 2-bedroom, 1-bathroom home perfect for first-time buyers. Recently renovated with modern appliances and a fenced yard.",
+  "addressProperty": "567 Oak Lane, Portland, OR 97210",
+  "type": "House",
+  "priceProperty": {
+    "$numberDecimal": "425000"
+  },
+  "imageUrl": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=800",
+  "active": true,
+  "createdAt": {
+    "$date": "2025-11-12T16:45:00.000Z"
+  },
+  "idOwner": "owner-234"
+},
+{
+  "_id": "prop-005",
+  "name": "Beachfront Villa",
+  "description": "Spectacular oceanfront property with direct beach access, infinity pool, 5 bedrooms, and breathtaking sunset views. Your dream vacation home awaits.",
+  "addressProperty": "12 Ocean Drive, Miami Beach, FL 33139",
+  "type": "Villa",
+  "priceProperty": {
+    "$numberDecimal": "3200000"
+  },
+  "imageUrl": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800",
+  "active": true,
+  "createdAt": {
+    "$date": "2025-11-11T11:00:00.000Z"
+  },
+  "idOwner": "owner-567"
+},
+{
+  "_id": "8c5830a6-bab7-4f34-a088-4737a8485c63",
+  "name": "Penthouse Downtown Miami",
+  "description": "Penthouse miami",
+  "addressProperty": "125 SW North River Dr, Miami, FL 33130, Estados Unidos",
+  "type": "Apartment",
+  "priceProperty": {
+    "$numberDecimal": "1250000"
+  },
+  "imageUrl": "http://localhost:5000/uploads/properties/f8272ff2-320d-4d18-bba8-939dfde97f1f.jpeg",
+  "active": true,
+  "createdAt": {
+    "$date": "2025-11-19T12:14:31.348Z"
+  },
+  "idOwner": null
+}]

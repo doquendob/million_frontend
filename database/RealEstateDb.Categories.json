@@ -1,0 +1,25 @@
+[{
+  "_id": "cat-001",
+  "name": "House",
+  "color": "#10b981"
+},
+{
+  "_id": "cat-002",
+  "name": "Apartment",
+  "color": "#3b82f6"
+},
+{
+  "_id": "cat-003",
+  "name": "Villa",
+  "color": "#f59e0b"
+},
+{
+  "_id": "cat-004",
+  "name": "Townhouse",
+  "color": "#8b5cf6"
+},
+{
+  "_id": "cat-005",
+  "name": "Estate",
+  "color": "#ec4899"
+}]

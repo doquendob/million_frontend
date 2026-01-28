@@ -10,6 +10,7 @@ import ErrorMessage from '@/components/ErrorMessage';
 import { Building2, Home as HomeIcon, X } from 'lucide-react';
 import { propertyApi } from '@/lib/api/propertyService';
 import { ApiError } from '@/lib/api/types';
+import Link from 'next/link';
 import { useToastContext } from '@/providers/ToastProvider';
 
 export default function Home() {
@@ -152,6 +153,10 @@ export default function Home() {
             <div>
               <h1 className="text-3xl font-bold text-gray-900">Real Estate Listings</h1>
               <p className="text-sm text-gray-600">Find your dream property</p>
+            </div>
+            <div className="ms-auto inline-flex gap-2">
+              <Link className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-md font-medium transition-colors" href="/auth/login">Login</Link>
+              <Link className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-md font-medium transition-colors" href="/auth/register">Register</Link>
             </div>
           </div>
         </div>
